@@ -3,4 +3,6 @@
 
 ## Usage
 * Run technews spider：`python run.py`
-* Another spider：`scrapy crawl technews -o news.csv -t csv`
+* Spider via news API: `scrapy crawl newsxapi -o news.csv -t csv`
+* Another spider：`scrapy crawl newsplus -o news.csv -t csv`
+

@@ -6,9 +6,9 @@ from NewsSpider.items import NewsspiderItem
 import json
 
 
-class NewplusSpider(scrapy.Spider):
+class NewsplusSpider(scrapy.Spider):
     '''
-    通过新闻采集页面（API）爬取
+    通过新闻采集页面爬取
     '''
 
     name = 'newsplus'
